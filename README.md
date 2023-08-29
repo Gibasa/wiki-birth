@@ -20,8 +20,9 @@ python wiki-birth.py
 ```
 
 4. Follow the prompts to input your birth date in the format dd/mm/yyyy.
+5. The script will display the title of an article published on the Portuguese Wikipedia site that is related to the provided birth date. It will also provide a link to the full article in the terminal.
 
-5. After running the script, a new CSV file named `new_data.csv` will be generated. This file will contain updated information, including article titles, URLs, and summaries related to the birth dates. An example of this file's structure is provided in `new_data.csv`.
+6. A new CSV file named `new_data.csv` will be generated. This file will contain updated information, including article titles, URLs, and summaries related to the birth dates. An example of this file's structure is provided in `new_data.csv`.
 
 ## Script Overview
 
