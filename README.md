@@ -11,7 +11,7 @@ pip install pandas wikipedia-api
 ```
 
 2. **Example Data Files:**
-   - Create a CSV file named `data.csv` with the following columns: `Id`, `Name`, and `Birth`. Each row should represent an individual with a unique identifier (`Id`), name (`Name`), and birth date (`Birth`) in the format dd/mm/yyyy. An example of this file's structure is provided in `data_example.csv`.
+   - Create a CSV file named `data.csv` with the following columns: `Id`, `Name`, and `Birth`. Each row should represent an individual with a unique identifier (`Id`), name (`Name`), and birth date (`Birth`) in the format dd/mm/yyyy. An example of this file's structure is provided in `data.csv`.
 
 3. Run the script in your Python environment:
 
@@ -21,7 +21,7 @@ python wiki-birth.py
 
 4. Follow the prompts to input your birth date in the format dd/mm/yyyy.
 
-5. After running the script, a new CSV file named `new_data.csv` will be generated. This file will contain updated information, including article titles, URLs, and summaries related to the birth dates. An example of this file's structure is provided in `new_data_example.csv`.
+5. After running the script, a new CSV file named `new_data.csv` will be generated. This file will contain updated information, including article titles, URLs, and summaries related to the birth dates. An example of this file's structure is provided in `new_data.csv`.
 
 ## Script Overview
 
