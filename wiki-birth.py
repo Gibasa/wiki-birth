@@ -4,7 +4,7 @@ import wikipedia as wp
 print("Vamos descobrir um artigo publicado no Brasil no site Wikipedia na data de seu nascimento?")
 user_birth = input("Insira a data com o formato de dd/mm/aaaa: ")
 
-wp.set_lang("en")
+wp.set_lang("pt")
 data = pd.read_csv("data.csv")
 ids = data["Id"].tolist()
 names = data["Name"].tolist()
